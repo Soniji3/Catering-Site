@@ -1,69 +1,57 @@
-# Welcome to your Lovable project
+# Catering-Site
 
-## Project info
+## Overview
+Catering-Site is a modern, responsive catering website built with **HTML, CSS, and JavaScript**. It provides an elegant black-and-white theme and features essential sections like Home, Our Chef, Menu, Gallery, About Us, and Contact.
 
-**URL**: https://lovable.dev/projects/bc462f2b-8e00-41ba-97fd-31e8c406371a
+## Features
+- **Fully Responsive**: Optimized for desktop, tablet, and mobile devices.
+- **Elegant UI**: A minimalistic black-and-white theme with smooth animations.
+- **Modern Tech Stack**: Built with HTML, CSS, and JavaScript for efficiency and scalability.
+- **SEO-Friendly**: Structured for search engine optimization.
 
-## How can I edit this code?
+## Installation
 
-There are several ways of editing your application.
+### Prerequisites
+Ensure you have the following installed:
+- [Git](https://git-scm.com/)
 
-**Use Lovable**
-
-Simply visit the [Lovable Project](https://lovable.dev/projects/bc462f2b-8e00-41ba-97fd-31e8c406371a) and start prompting.
-
-Changes made via Lovable will be committed automatically to this repo.
-
-**Use your preferred IDE**
-
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
+### Clone the Repository
 ```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
+git clone https://github.com/Soniji3/Catering-Site.git
+cd Catering-Site
 ```
 
-**Edit a file directly in GitHub**
+### Open in Browser
+Simply open the `index.html` file in your preferred web browser.
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## Project Structure
+```
+Catering-Site/
+│── assets/         # Images, fonts, icons
+│── css/            # Stylesheets
+│── js/             # JavaScript files
+│── index.html      # Main homepage
+│── about.html      # About Us page
+│── menu.html       # Menu page
+│── contact.html    # Contact page
+```
 
-**Use GitHub Codespaces**
+## Deployment
+This project can be deployed on platforms like:
+- [GitHub Pages](https://pages.github.com/)
+- [Netlify](https://www.netlify.com/)
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+### Deploying to GitHub Pages
+1. Navigate to your repository on GitHub.
+2. Go to **Settings > Pages**.
+3. Under **Branch**, select `main` (or the relevant branch) and save.
+4. Your site will be live at `https://your-username.github.io/Catering-Site/`.
 
-## What technologies are used for this project?
+## Contribution
+Contributions are welcome! Feel free to fork the repo, create a new branch, and submit a pull request.
 
-This project is built with .
+## License
+This project is licensed under the MIT License.
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/bc462f2b-8e00-41ba-97fd-31e8c406371a) and click on Share -> Publish.
-
-## I want to use a custom domain - is that possible?
-
-We don't support custom domains (yet). If you want to deploy your project under your own domain then we recommend using Netlify. Visit our docs for more details: [Custom domains](https://docs.lovable.dev/tips-tricks/custom-domain/)
+## Contact
+For inquiries, reach out at [your-email@example.com].
